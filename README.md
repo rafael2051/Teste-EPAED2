@@ -1,3 +1,3 @@
 # Teste-EPAED2
-Uma main pronta para testar as saídas do seu EP!
+Uma main pronta para testar as saídas do seu EP! Esta main utiliza o próprio grafo e as entradas disponibilizadas pelo professor Ivandré.
 Use o Code::Blocks 13.12 para compilar e rodar os testes.
