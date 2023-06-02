@@ -44,14 +44,10 @@ int main() {
 	int A = 15;
 	int aberto[] = {0, 1,1,1,1,1,1,1,1,1};
 
-	int inicio = 4;
-	int fim = 9;
-	int chave=1;
-
 	int ijpeso[]={1,2,1, 1,4,2, 1,6,1, 1,8,4, 2,3,4,
 				  2,4,2, 2,8,1, 2,9,5, 3,4,1, 3,5,1,
 				  4,5,1, 5,6,2, 6,7,1, 7,8,2, 8,9,1};
-    int noTeste = 1;
+	int noTeste = 1;
 	NO * teste = NULL;
 
 
@@ -80,8 +76,8 @@ int main() {
 	inicio = 1;
 	fim = 9;
 	chave = 3;
-    aberto[2] = 0;
-    aberto[8] = 0;
+	aberto[2] = 0;
+	aberto[8] = 0;
 	teste = caminho(N, A, ijpeso, aberto, inicio, fim, chave);
 	imprimeResposta(teste, inicio - 1, fim - 1, noTeste, aberto, N, chave);
 	noTeste++;
@@ -101,7 +97,7 @@ int main() {
 	inicio = 9;
 	fim = 4;
 	chave = 7;
-    todasAbertas(aberto, N);
+	todasAbertas(aberto, N);
 	teste = caminho(N, A, ijpeso, aberto, inicio, fim, chave);
 	imprimeResposta(teste, inicio - 1, fim - 1, noTeste, aberto, N, chave);
 	noTeste++;
@@ -129,7 +125,7 @@ int main() {
 	inicio = 9;
 	fim = 4;
 	chave = 7;
-    todasAbertas(aberto, N);
+	todasAbertas(aberto, N);
 	aberto[8] = 0;
 	teste = caminho(N, A, ijpeso, aberto, inicio, fim, chave);
 	imprimeResposta(teste, inicio - 1, fim - 1, noTeste, aberto, N, chave);
@@ -161,5 +157,4 @@ int main() {
 	printf("\n");
 
 	return 0;
-
 }
