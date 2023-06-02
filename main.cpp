@@ -18,8 +18,8 @@ void imprimeResposta(NO * resposta, int ini, int fim, int noTeste, int * a, int 
 	printf("Teste %d:\n", noTeste);
 	printf("Salas trancadas: ");
 	for(int i = 1;i <= N; i++)
-        if(!a[i])
-            printf("%d ", i);
+        	if(!a[i])
+            		printf("%d ", i);
 	printf("\n");
 	printf("Chave: %d\n", chave);
 
