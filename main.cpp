@@ -20,8 +20,8 @@ void imprimeResposta(NO * resposta, int ini, int fim, int noTeste, int * a, int 
 	for(int i = 1;i <= N; i++)
         if(!a[i])
             printf("%d ", i);
-    printf("\n");
-    printf("Chave: %d\n", chave);
+	printf("\n");
+	printf("Chave: %d\n", chave);
 
 	if(p){
 		printf("O caminho mais curto de %d ate %d e: ", ini + 1, fim + 1);
