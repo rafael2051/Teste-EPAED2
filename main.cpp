@@ -53,7 +53,6 @@ int main() {
 
 	// o EP sera testado com uma serie de chamadas como esta
 
-
 	inicio = 1;
 	fim = 9;
 	chave = 3;
